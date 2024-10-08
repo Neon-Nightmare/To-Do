@@ -12,6 +12,13 @@
     color: white;
     font-size: 20px;
 }
+h2{
+    color:aliceblue;
+    font-size: 20px;
+}
+#label{
+    color: white
+}
 #buttons{
     display: flex;
 }
@@ -23,8 +30,12 @@
     margin: 20px auto;
     width: 10%;
     height: 10%;
+    animation: rotate 3s infinite linear;
 }
-
+@keyframes rotate{
+from {rotate: 0deg;}
+to {rotate: 359deg}
+}
 body {
     font-family: 'Courier New', Courier, monospace;
     background-color: rgb(0, 0, 0);
