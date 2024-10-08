@@ -1,9 +1,11 @@
 .title{
+    font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
     color: rgb(255, 255, 255);
     text-align: center;
 }
 #inputs{
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
     row-gap: 10%;
@@ -15,6 +17,12 @@
 }
 #archive{
     color:aliceblue;
+}
+#featuredImage {
+    display: block;
+    margin: 20px auto;
+    width: 10%;
+    height: 10%;
 }
 
 body {

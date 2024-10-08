@@ -7,13 +7,15 @@
     <body>
         <script src="./index.js"></script>
         <h1 class="title">To Do List</h1>
-        
+        <img id="featuredImage" src="https://th.bing.com/th/id/OIP.9LrVs6DYgR-bzvEYq6a4-AHaGC?rs=1&pid=ImgDetMain" alt="Featured Image" />
         <div id="forms">
             <div id="inputs"></div>
             <div class="buttons">
-                <input type="text" id="event" name="event"><br>
-                <button type="submit" onclick="addtolist()">Enter New Task</button>
-                <button onclick="deletefromlist()">delete</button>
+                <form>
+                    <input type="text" id="event" name="event"><br>
+                    <button type="reset" onclick="addtolist()">Enter New Task</button>
+                </form>
+                <button onclick="deletefromlist()">completed</button>
             </div>
         </div>
 
