@@ -1,5 +1,23 @@
 .title{
     font-size: 50px;
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
+}
+#inputs{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10%;
+    color: white;
+    font-size: 20px;
+}
+#buttons{
+    display: flex;
+}
+#archive{
+    color:aliceblue;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(0, 0, 0);
 }

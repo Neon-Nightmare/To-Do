@@ -10,8 +10,16 @@
         
         <div id="forms">
             <div id="inputs"></div>
-            <input type="text" id="event" name="event"><br>
-            <button type="submit" onclick="addtolist()">Enter New Task</button>
+            <div class="buttons">
+                <input type="text" id="event" name="event"><br>
+                <button type="submit" onclick="addtolist()">Enter New Task</button>
+                <button onclick="deletefromlist()">delete</button>
+            </div>
+        </div>
+
+        <div id="archive">
+            <ul id="archivelist">
+            </ul>  
         </div>
         
     </body>
