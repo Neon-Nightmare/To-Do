@@ -1,10 +1,11 @@
 function addtolist(){
-    
+    const input_text_value = document.getElementById('event').value;
     const div = document.getElementById("inputs");
+
     div.innerHTML += 
         `<div>
-            <input type="checkbox" placeholder="Enter value" id="input-field">
+            <input type="checkbox" name="input-field" id="input-field">
+            <label for="input-field"> ${input_text_value}</label>
         </div>`;
-    const input_text_value = document.getElementById('event').value;
-    div.innerHTML += input_text_value
+    
 }
